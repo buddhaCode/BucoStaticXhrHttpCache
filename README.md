@@ -1,5 +1,5 @@
 # BucuStaticXhrHttpCache
-Shopware plugin to enable HTTP cacheing for shop pages in modal boxes
+Shopware plugin to enable HTTP caching for shop pages in modal boxes
 
 ## Features
 This plugin enables HTTP cache warming and invalidation for shop pages in modal boxes (or otherwise loaded via AJAX/XHR) in addition to regular shop pages.
