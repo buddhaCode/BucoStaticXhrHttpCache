@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <services>
+
+        <service id="buc_static_xhr_http_cache.subscriber.http_cache" class="BucuStaticXhrHttpCache\Subscriber\HttpCache">
+            <argument type="service" id="events"/>
+            <tag name="shopware.event_subscriber"/>
+        </service>
+
+        <service id="buc_static_xhr_http_cache.services.http_cache_static_xhr_url_provider"
+                 class="BucuStaticXhrHttpCache\Services\HttpCacheStaticXhrUrlProvider">
+            <argument type="service" id="dbal_connection"/>
+            <argument type="service" id="router"/>
+            <tag name="cache_warmer.url_provider"/>
+        </service>
+
+    </services>
+</container>

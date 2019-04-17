@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/plugin.xsd">
+    <label>HTTP Cache: Shop pages in modal boxes</label>
+    <label lang="de">HTTP Cache: Shopseiten in Modalboxen</label>
+    <version>1.0.0</version>
+    <license>MIT</license>
+    <link>https://github.com/buddhaCode/BucStaticXhrHttpCache</link>
+    <author>buddhaCode</author>
+    <description>
+        <![CDATA[
+            <p>This plugin enables HTTP cache warming and invalidation for shop pages in modal boxes (or otherwise loaded via AJAX/XHR) in addition to regular shop pages.</p>
+        ]]>
+    </description>
+    <description lang="de">
+        <![CDATA[
+            <p>Erlaubt das HTTP Cache aufwärmen und invalidieren für Shopseiten in Modalboxen (oder anderswo via AJAX/XHR geladen) zusätzlich zu regulären Shopseiten.</p>
+        ]]>
+    </description>
+    <compatibility minVersion="5.5.0" />
+    <changelog version="1.0.0">
+        <changes>Initial release</changes>
+        <changes lang="de">Erstveröffentlichung</changes>
+    </changelog>
+</plugin>
