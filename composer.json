@@ -1,0 +1,15 @@
+{
+  "name": "buddha-code/buco-static-xhr-http-cache",
+  "homepage": "https://github.com/buddhaCode/BucoStaticXhrHttpCache",
+  "description": "Shopware plugin to enable HTTP caching for shop pages in modal boxes",
+  "keywords": ["shopware", "plugin", "http", "cache"],
+  "type": "shopware-plugin",
+  "extra": {
+    "installer-name": "BucoStaticXhrHttpCache"
+  },
+  "license": "GPL-3.0",
+  "require": {
+    "php": ">=7.0",
+    "composer/installers": "^1.0"
+  }
+}
