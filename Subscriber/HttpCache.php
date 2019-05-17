@@ -1,6 +1,6 @@
 <?php
 
-namespace BucuStaticXhrHttpCache\Subscriber;
+namespace BucoStaticXhrHttpCache\Subscriber;
 
 use Enlight\Event\SubscriberInterface;
 use Shopware\Models\Form\Field;

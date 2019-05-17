@@ -1,13 +1,13 @@
 <?php
 
-namespace BucuStaticXhrHttpCache\Services;
+namespace BucoStaticXhrHttpCache\Services;
 
 use Shopware\Components\HttpCache\UrlProvider\StaticProvider;
 use Shopware\Components\Routing\Context;
 
 class HttpCacheStaticXhrUrlProvider extends StaticProvider
 {
-    const NAME = 'bucuStaticXhr';
+    const NAME = 'bucoStaticXhr';
 
     /**
      * {@inheritdoc}

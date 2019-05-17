@@ -1,4 +1,4 @@
-# BucuStaticXhrHttpCache
+# BucoStaticXhrHttpCache
 Shopware plugin to enable HTTP caching for shop pages in modal boxes
 
 ## Features

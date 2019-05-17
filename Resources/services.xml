@@ -6,13 +6,13 @@
 
     <services>
 
-        <service id="buc_static_xhr_http_cache.subscriber.http_cache" class="BucuStaticXhrHttpCache\Subscriber\HttpCache">
+        <service id="buco_static_xhr_http_cache.subscriber.http_cache" class="BucoStaticXhrHttpCache\Subscriber\HttpCache">
             <argument type="service" id="events"/>
             <tag name="shopware.event_subscriber"/>
         </service>
 
-        <service id="buc_static_xhr_http_cache.services.http_cache_static_xhr_url_provider"
-                 class="BucuStaticXhrHttpCache\Services\HttpCacheStaticXhrUrlProvider">
+        <service id="buco_static_xhr_http_cache.services.http_cache_static_xhr_url_provider"
+                 class="BucoStaticXhrHttpCache\Services\HttpCacheStaticXhrUrlProvider">
             <argument type="service" id="dbal_connection"/>
             <argument type="service" id="router"/>
             <tag name="cache_warmer.url_provider"/>

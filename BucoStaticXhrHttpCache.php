@@ -1,12 +1,12 @@
 <?php
 
-namespace BucuStaticXhrHttpCache;
+namespace BucoStaticXhrHttpCache;
 
 use Shopware\Components\Plugin;
 use Shopware\Components\Plugin\Context\InstallContext;
 use Shopware\Components\Plugin\Context\UninstallContext;
 
-class BucuStaticXhrHttpCache extends Plugin
+class BucoStaticXhrHttpCache extends Plugin
 {
     public function install(InstallContext $context)
     {
